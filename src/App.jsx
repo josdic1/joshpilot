@@ -6,9 +6,9 @@ import './App.css';
 function App() {
   return (
     <LinkProvider>
-      <h1>HI</h1>
       <NavBar />
       <Outlet />
+      
     </LinkProvider>
   );
 }
